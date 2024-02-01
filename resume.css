@@ -1,0 +1,60 @@
+body {
+  /* height: 90vh; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main-container {
+  display: flex;
+  border: 5px solid red;
+  flex-wrap: wrap;
+  /* height: 90vh; */
+}
+
+/* body > h1 {
+  text-align: center;
+  font-size: 3em;
+} */
+
+.section {
+  display: flex;
+  border: 5px solid black;
+  margin: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.boxes {
+  border: 2px solid blue;
+  margin: 10px;
+}
+
+#name-box {
+  /* width: 60%; */
+  height: 300px;
+  flex: 3;
+}
+
+#info-box {
+  /* width: auto; */
+  height: 300px;
+  flex: 1;
+}
+
+#summary-box {
+  /* width: auto; */
+  height: 100px;
+}
+
+#ee-box {
+  /* width: auto; */
+  height: 300px;
+  flex: 4;
+}
+
+#skills-box {
+  /* width: auto; */
+  height: 300px;
+  flex: 1;
+}
+
